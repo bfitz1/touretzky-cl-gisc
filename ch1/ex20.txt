@@ -1,0 +1,27 @@
+We can define XOR in terms of NOT and EQUAL:
+
+(defun xor (x y)
+  (not (equal x y)))
+
+
+Check:
+
+(xor T T)
+=> (not (equal T T))
+=> (not T)
+=> NIL
+
+(xor NIL NIL)
+=> (not (equal NIL NIL))
+=> (not T)
+=> NIL
+
+(xor T NIL)
+=> (not (equal T NIL))
+=> (not NIL)
+=> T
+
+(xor NIL T)
+=> (not (equal NIL T))
+=> (not NIL)
+=> T

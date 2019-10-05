@@ -1,0 +1,7 @@
+The predicate function:
+
+(defun f (x)
+  (zerop (add1 (add1 x))))
+
+is only true when (add1 (add1 x)) is zero. Or in mathematical terms,
+when 1 + (1 + x) = 0, which implies x = -2.

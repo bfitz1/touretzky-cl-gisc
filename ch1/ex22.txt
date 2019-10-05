@@ -1,0 +1,1 @@
+All predicates are functions. Not all functions are predicates.

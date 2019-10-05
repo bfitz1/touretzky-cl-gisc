@@ -1,0 +1,3 @@
+a) False e.g. ZEROP doesn't accept T or NIL (it expects numbers)
+
+b) True, by definition.

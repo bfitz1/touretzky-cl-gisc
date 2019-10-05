@@ -1,0 +1,11 @@
+This function:
+
+(defun f (x)
+  (not (not x)))
+
+represents double negation. So (f NIL) => NIL and (f T) => T. For
+symbols such as RUTABAGA, it also evaluates to be T, since:
+
+(not (not RUTABAGA))
+=> (not NIL)
+=> T

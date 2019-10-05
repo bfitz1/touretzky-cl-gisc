@@ -1,0 +1,17 @@
+This function:
+
+(defun f (x)
+  (add1 (zerop x)))
+
+attempts to apply ADD1 to the symbol (zerop x), which is an invalid
+operation. Next up we have:
+
+(defun g (x y)
+  (equal (+ x y)))
+
+where EQUAL is applied to too few arguments. Lastly, there's:
+
+(defun h (x y)
+  (symbolp (not x y)))
+
+where NOT is being applied to too many arguments.

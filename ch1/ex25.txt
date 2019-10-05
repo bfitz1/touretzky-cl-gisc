@@ -1,0 +1,1 @@
+Because FALSE is not NIL. Everything not NIL is true in (Common) Lisp.

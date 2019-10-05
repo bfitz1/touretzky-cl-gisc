@@ -1,0 +1,8 @@
+(not NIL)
+=> T
+
+(not 12)
+=> NIL
+
+(not not)
+=> NIL

@@ -1,0 +1,16 @@
+One way is to divide by 2:
+
+(defun half (x)
+  (/ x 2))
+
+
+Another way is to multiply by 1/2:
+
+(defun half (x)
+  (* x 1/2))
+
+
+Bonus! We can multiply by 0.5 and force a floating-point conversion:
+
+(defun half (x)
+  (* x 0.5))

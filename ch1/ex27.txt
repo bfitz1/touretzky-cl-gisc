@@ -1,0 +1,3 @@
+A wrong-type-input error: (evenp TWO)
+
+A wrong-number-of-inputs error: (evenp 2 4)

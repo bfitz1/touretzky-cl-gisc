@@ -1,0 +1,7 @@
+This function:
+
+(defun f (x)
+  (symbolp (numberp x)))
+
+will always return T. Predicates will return either T or NIL, which are
+both symbols.

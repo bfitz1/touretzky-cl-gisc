@@ -1,0 +1,7 @@
+I went through this part pretty quickly. This isn't my first brush with
+a Lisp (or even Common Lisp for that matter), but I'd rather not get
+ahead of myself.
+
+I am slightly unnerved to see that Common Lisp doesn't disambiguate
+between nil and false. Maybe I'll grow to understand or even appreciate
+appreciate this preference.

@@ -1,0 +1,4 @@
+Just subtract two from the first argument instead:
+
+(defun twomorep (x y)
+  (equalp (sub2 x) y))

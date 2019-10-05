@@ -1,0 +1,2 @@
+Both NUMBER and SYMBOL are symbols, according to the typographic
+conventions we've agreed to.

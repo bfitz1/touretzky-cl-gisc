@@ -1,0 +1,4 @@
+;; Just compose zerop and sub2
+
+(defun twop (x)
+  (zerop (sub2 x)))

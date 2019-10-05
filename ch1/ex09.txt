@@ -1,0 +1,4 @@
+Closely mirrors ONEMOREP:
+
+(defun twomorep (x y)
+  (equalp x (add2 y)))

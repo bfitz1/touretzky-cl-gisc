@@ -1,0 +1,2 @@
+(defun more-than-half-p (x y)
+  (> x (/ y 2)))

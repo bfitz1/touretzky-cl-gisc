@@ -1,0 +1,7 @@
+We can represent the function this way:
+
+(defun f (x)
+  (- 0 x))
+
+By subtracting the argument from zero, it effectively negates its
+arguments.

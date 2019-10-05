@@ -1,0 +1,2 @@
+(defun not-onep (x)
+  (not (equal x 1)))

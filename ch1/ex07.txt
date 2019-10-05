@@ -1,0 +1,2 @@
+(defun multi-digit-p (x)
+  (> x 9))

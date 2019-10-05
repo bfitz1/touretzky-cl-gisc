@@ -1,0 +1,2 @@
+Excluding symbolic comparators like <, we have EQUAL and NOT which
+don't end in P.
