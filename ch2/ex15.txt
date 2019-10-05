@@ -1,0 +1,13 @@
+((A B) (C D) (E F))
+
+Function        Result
+--------        ------
+CAR             (A B)
+CDDR            ((E F))
+CADR            (C D)
+CDAR            (B)
+CADAR           B
+CDDAR           ()
+CAAR            A
+CDADDR          (F)
+CADADDR         F

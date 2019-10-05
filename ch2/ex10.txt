@@ -1,0 +1,15 @@
+(((PHONE HOME)))
+
+*--nil
+|
+*--nil
+|
+*--*--nil
+|  |
+1  2
+
+1: PHONE
+2: HOME
+
+
+The CAR of this is ((PHONE HOME)). The CDR of this is NIL.

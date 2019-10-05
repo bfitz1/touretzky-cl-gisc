@@ -1,0 +1,23 @@
+(car (POST NO BILLS))
+=> POST
+
+(cdr (POST NO BILLS))
+=> (NO BILLS)
+
+(car ((POST NO) BILLS))
+=> (POST NO)
+
+(cdr (BILLS))
+=> NIL
+
+(car BILLS)
+=> error!
+
+(cdr (POST (NO BILLS)))
+=> ((NO BILLS))
+
+(cdr ((POST NO BILLS)))
+=> NIL
+
+(cdr NIL)
+=> NIL

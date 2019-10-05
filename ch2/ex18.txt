@@ -1,0 +1,4 @@
+To make a list of two items, we'll need two calls to CONS:
+
+(defun f (x y)
+  (cons x (cons y NIL)))

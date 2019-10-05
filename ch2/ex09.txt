@@ -1,0 +1,4 @@
+Replace FIRST with SECOND:
+
+(defun my-third (x)
+  (second (rest x))

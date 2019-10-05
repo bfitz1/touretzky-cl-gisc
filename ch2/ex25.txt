@@ -1,0 +1,3 @@
+Cons cells are constructed by the CONS function. This justification
+feels arbitrary because you could have named the artifact anything you
+wanted, but whatever!

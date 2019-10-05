@@ -1,0 +1,11 @@
+Let's look at these two functions:
+
+(defun f1 (x)
+  (length (cdr x)))
+
+(defun f2 (x)
+  (cdr (length x)))
+
+When F1 is applied to (A B C), we drop A and count the length of (B C),
+which is 2. Applying F2 to (A B C) results in an error since we can't 
+CDR the length of a list.

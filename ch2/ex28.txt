@@ -1,0 +1,6 @@
+Not yet. To write a generic function, we'd need one of two things:
+
+- Decisions: either take the CDR or return the value.
+- Iteration: apply CDR an arbitrary number of times.
+
+Currently, we have neither.

@@ -1,0 +1,3 @@
+I'd like to thank Wikipedia for its ASCII representation of cons
+diagrams, without which I would have just said "fuck it" to writing up
+some of these problems.

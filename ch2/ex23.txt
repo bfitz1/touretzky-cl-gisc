@@ -1,0 +1,10 @@
+Using LIST:
+
+(defun two-deeper (x)
+  (list (list x)))
+
+
+Using CONS:
+
+(defun two-deeper (x)
+  (cons (cons x NIL) NIL))

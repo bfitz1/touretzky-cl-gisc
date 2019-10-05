@@ -1,0 +1,1 @@
+It attempts to apply CAR to the symbol FRED, which is an error.

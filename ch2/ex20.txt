@@ -1,0 +1,17 @@
+(list NIL)
+=> (NIL)
+
+(list T NIL)
+=> (T NIL)
+
+(cons T NIL)
+=> (T)
+
+(cons (T) NIL)
+=> ((T))
+
+(list (IN ONE EAR AND) (OUT THE OTHER))
+=> ((IN ONE EAR AND) (OUT THE OTHER))
+
+(cons (IN ONE EAR AND) (OUT THE OTHER))
+=> ((IN ONE EAR AND) OUT THE OTHER)

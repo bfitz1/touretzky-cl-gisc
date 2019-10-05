@@ -1,0 +1,11 @@
+Here's MY-SECOND as a function:
+
+(defun my-second (x)
+  (first (rest x)))
+  
+Applying MY-SECOND to (HONK IF YOU LIKE GEESE), step by step:
+
+(my-second (HONK IF YOU LIKE GEESE))
+=> (first (rest (HONK IF YOU LIKE GEESE)))
+=> (first (IF YOU LIKE GEESE))
+=> IF

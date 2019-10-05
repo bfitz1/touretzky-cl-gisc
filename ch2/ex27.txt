@@ -1,0 +1,2 @@
+There are more cons cells than elements when we're working with deeply
+nested lists.

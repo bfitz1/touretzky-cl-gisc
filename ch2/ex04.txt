@@ -1,0 +1,12 @@
+((BOWS ARROWS) (FLOWERS CHOCOLATES))
+
+*----------*--nil
+|          |
+*--*--nil  *--*--nil
+|  |       |  |
+1  2       3  4
+
+1: BOWS
+2: ARROWS
+3: FLOWERS
+4: CHOCOLATES

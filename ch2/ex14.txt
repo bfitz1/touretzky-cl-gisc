@@ -1,0 +1,2 @@
+Reading CAADR from left to right would attempt apply CDR to the symbol
+BLUE, which is an error.

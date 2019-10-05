@@ -1,0 +1,12 @@
+(PLEASE (BE MY) VALENTINE)
+
+*--*----------*--nil
+|  |          |
+1  *--*--nil  4
+   |  |
+   2  3
+
+1: PLEASE
+2: BE
+3: MY
+4: VALENTINE

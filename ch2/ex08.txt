@@ -1,0 +1,4 @@
+For MY-THIRD, we add another REST inbetween FIRST and REST:
+
+(defun my-third (x)
+  (first (rest (rest x))))

@@ -1,0 +1,14 @@
+(list FRED AND WILMA)
+=> (FRED AND WILMA)
+
+(list FRED (AND WILMA))
+=> (FRED (AND WILMA))
+
+(cons FRED (AND WILMA))
+=> (FRED AND WILMA)
+
+(cons NIL NIL)
+=> (NIL)
+
+(list NIL NIL)
+=> (NIL NIL)

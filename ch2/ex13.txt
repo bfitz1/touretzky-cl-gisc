@@ -1,0 +1,5 @@
+start      (((FUN)) (IN THE) (SUN))
+c.aaar     FUN
+c.aadr     IN
+cadadr     THE
+caaddr     SUN
