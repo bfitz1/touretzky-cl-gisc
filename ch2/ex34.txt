@@ -1,0 +1,3 @@
+(A B C . D)
+
+(cons A (cons B (cons C D)))

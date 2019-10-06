@@ -1,3 +1,8 @@
+Still pretty straightforward. Though, I do think the representation of
+dotted pairs is confusing. It looks like a list when actually it's a
+single element (which may be inside a list). I also hope I did that
+proof by contradiction correctly!
+
 I'd like to thank Wikipedia for its ASCII representation of cons
 diagrams, without which I would have just said "fuck it" to writing up
 some of these problems.

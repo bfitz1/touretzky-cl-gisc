@@ -1,0 +1,9 @@
+I honestly have no idea if this is correct, approaching correct, or
+way off base. Regardless, here's a stab at it:
+
+Assume there is a construction x of the circular list #1=(A B C . #1#)
+which just uses CONS without labels. Because (cdddr x) is circular, it
+points to the same cons cell as x. And because x doesn't use labels,
+(cdddr x) points to a fourth cons cell distinct from the one being
+referenced by x. This is a contradiction, so our claim that such a
+construction exists must be false.

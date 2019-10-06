@@ -1,0 +1,9 @@
+((A . B) (C . D))
+
+(cons (cons A B) (cons (cons C D) nil))
+
+*-----*--nil
+|     |
+*--B  *--D
+|     |
+A     C

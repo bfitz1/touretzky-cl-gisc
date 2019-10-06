@@ -1,0 +1,5 @@
+Just converting to a domain where we know how to answer the question
+being posed:
+
+(defun unary-greaterp (x y)
+  (> (length x) (length y)))

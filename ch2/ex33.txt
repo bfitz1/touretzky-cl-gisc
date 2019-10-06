@@ -1,0 +1,2 @@
+Treating CAR as a predicate, it answers whether or not our unary number
+is positive.

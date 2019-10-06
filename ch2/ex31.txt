@@ -1,0 +1,14 @@
+For our representation of unary numbers, the empty list is equivalent
+to zero. So either of these will work:
+
+(defun unary-zerop (x)
+  (null x))
+
+(defun unary-zerop (x)
+  (equal (length x) 0))
+
+Additionally, per question #33 (assuming we're ignoring negative
+values, which I hope we are):
+
+(defun unary-zerop (x)
+  (not (car x)))
