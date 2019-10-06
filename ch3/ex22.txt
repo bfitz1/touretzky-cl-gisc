@@ -1,0 +1,57 @@
+a) SBCL currently. Woo.
+
+
+b) Verified in a REPL not that I needed to, but here we go:
+
+(+ 3 5)
+=> 8
+
+(3 + 5)
+=> Error! 3 is a constant
+
+(+ 3 (5 6))
+=> Error! 5 is a constant
+
+(+ 3 (* 5 6))
+=> 33
+
+'(morning noon night)
+=> (morning noon night)
+
+('morning 'noon 'night)
+=> Error! MORNING is an undefined function
+
+(list 'morning 'noon 'night)
+=> (morning noon night)
+
+(car nil)
+=> NIL
+
+(+ 3 foo)
+=> Error! FOO is an unassigned variable
+
+(+ 3 'foo)
+=> Error! + is expecting a numeric value
+
+
+c) (defun (myfun a b) (list (list a) b))
+
+
+d) (defun firstp (a b)
+     (equal a (first b)))
+
+
+e) (defun mid-add1 (a)
+     (list (first a) (+ 1 (second a)) (third a)))
+
+
+f) (defun f-to-c (temp)
+     (/ (* 5 (- temp 32)) 9)
+
+
+g) This function:
+
+(defun foo (x) (+ 1 (zerop x)))
+
+attempts to add one to the result of a predicate (T or NIL). This won't
+work, since + expects numeric arguments.

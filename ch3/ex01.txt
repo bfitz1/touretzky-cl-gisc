@@ -1,0 +1,4 @@
+(not (equal 3 (abs -3)))
+=> (not (equal 3 3))
+=> (not T)
+=> NIL

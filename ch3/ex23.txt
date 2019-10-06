@@ -1,0 +1,8 @@
+Using \ as lambda because I shamefully haven't made a keyboard binding
+for that symbol yet:
+
+(defun double (n) (+ n n)) == \n. (n + n)
+
+(defun square (n) (* n n)) == \n. (n * n)
+
+(defun onemorep (n m)) (equal n (+ m 1)) == \n.\m. (n == m + 1)

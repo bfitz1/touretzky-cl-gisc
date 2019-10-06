@@ -1,0 +1,4 @@
+EVAL notation wins over box notation by being:
+
+- easier to type.
+- able to be processed by a computer.

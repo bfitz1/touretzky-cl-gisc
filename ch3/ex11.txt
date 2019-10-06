@@ -1,0 +1,2 @@
+(defun longer-than (a b)
+  (> (length a) (length b)))

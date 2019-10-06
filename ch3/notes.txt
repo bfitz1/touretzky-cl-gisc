@@ -1,0 +1,2 @@
+Some stuff about functions, variables and semantics. Nothing surprising
+here. Likely gets more interesting later on.

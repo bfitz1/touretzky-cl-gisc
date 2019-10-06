@@ -1,0 +1,2 @@
+(crank-call 'WANDA 'FRED)
+=> (hello FRED this is WANDA calling)

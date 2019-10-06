@@ -1,0 +1,30 @@
+(third (the quick brown fox))
+=> Error! THE undefined function
+
+(third '(the quick brown fox))
+
+
+(list 2 and 2 is 4)
+=> Error! AND unassigned variable
+=> Error! IS unassigned variable
+
+(list 2 'and 2 'is 4)
+
+
+(+ 1 '(length (list t t t t)))
+=> Error! Wrong type input to +
+
+(+ 1 (length (list 't 't 't 't)))
+
+
+(cons 'patrick (seymour marvin))
+=> Error! SEYMOUR undefined function
+
+(cons 'patrick '(seymour marvin))
+
+
+(cons 'patrick (list seymour marvin)
+=> Error! SEYMOUR unassigned variable
+=> Error! MARVIN unassigned variable
+
+(cons 'patrick (list 'seymour 'marvin))

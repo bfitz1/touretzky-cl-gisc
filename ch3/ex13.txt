@@ -1,0 +1,9 @@
+The function:
+
+(defun call-up (caller callee)
+  (list 'hello calle 'this 'is caller 'calling))
+
+requires two arguments named caller and callee
+
+(call-up 'FRED 'WANDA)
+=> (hello WANDA this is FRED calling)

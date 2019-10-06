@@ -1,0 +1,8 @@
+In SCRABBLE, word is being used both as an argument to bind a value to
+and as a quoted expression. With this in mind:
+
+(scrabble 'AARDVARK)
+=> (AARDVARK is a word)
+
+(scrabble 'WORD)
+=> (WORD is a word)

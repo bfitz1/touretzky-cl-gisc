@@ -1,0 +1,10 @@
+It's easier if you replace the bindings with names that aren't as
+distracting:
+
+(defun stooge (a b c)
+  (list a (list 'moe c) c 'larry))
+
+Anyway:
+
+(stooge 'moe 'curly 'larry)
+=> (moe (moe larry) larry larry)

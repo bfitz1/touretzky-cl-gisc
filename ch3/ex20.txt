@@ -1,0 +1,18 @@
+Given:
+
+(defun mystery (x)
+  (list (second x) (first x)))
+
+we have:
+
+(mystery '(dancing bear))
+=> (bear dancing)
+
+(mystery 'dancing 'bear)
+=> Error! Too many arguments
+
+(mystery '(zowie))
+=> (NIL zowie)
+
+(mystery (list 'first 'second))
+=> (second first)

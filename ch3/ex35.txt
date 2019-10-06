@@ -1,0 +1,20 @@
+(list 'cons t nil)
+=> (T)
+
+(eval (list 'cons t nil))
+=> (T)
+
+(eval (eval (list 'cons t nil)))
+=> Error!
+
+(apply #'cons '(t nil))
+=> (T)
+
+(eval nil)
+=> NIL
+
+(list 'eval nil)
+=> (eval NIL)
+
+(eval (list 'eval nil))
+=> NIL

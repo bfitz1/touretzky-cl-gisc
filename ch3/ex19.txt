@@ -1,0 +1,14 @@
+(cons 'grapes '(of wrath))
+=> (grapes of wrath)
+
+(list t 'is 'not nil)
+=> (T is not NIL)
+
+(first '(list moose goose))
+=> list
+
+(first (list 'moose 'goose))
+=> moose
+
+(cons 'home ('sweet 'home))
+=> Error! SWEET undefined function

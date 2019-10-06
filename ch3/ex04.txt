@@ -1,0 +1,36 @@
+(- 8 2)
+  8 evaluates to 8
+  2 evaluates to 2
+Enter - with inputs 8 and 2
+Result of - is 6
+
+(not (oddp 4))
+  (oddp 4)
+    4 evaluates to 4
+  Enter ODDP with input 4
+  Result of ODDP is NIL
+Enter NOT with input NIL
+Result of NOT is T
+
+(> (* 2 5) 9)
+  (* 2 5)
+    2 evaluates to 2
+    5 evaluates to 5
+  Enter * with inputs 2 and 5
+  Result of * is 10
+  9 evalutes to 9
+Enter > with inputs 10 and 9
+Result of > is T
+
+(not (equal 5 (+ 1 4)))
+  (equal 5 (+ 1 4))
+    5 evaluates to 5
+    (+ 1 4)
+      1 evaluates to 1
+      4 evaluates to 4
+    Enter + with inputs 1 and 4
+    Result of + is 5
+  Enter EQUAL with inputs 5 and 5
+  Result of EQUAL is T
+Enter NOT with input T
+Result of NOT is NIL

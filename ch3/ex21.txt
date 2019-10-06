@@ -1,0 +1,16 @@
+(defun speak (x y) (list 'all 'x 'is 'y))
+
+This version quotes its variable names in the function body, causing
+them to not be evaluated.
+
+
+(defun speak (x) (y) (list 'all x 'is y))
+
+This version doesn't list its arguments correctly.
+
+
+(defun speak ((x) (y)) (list all 'x is 'y))
+
+This version over-parenthesises its arguments, quotes the would-be
+arguments in the function body so they won't be evaluated, and doesn't
+quote ALL and IS.

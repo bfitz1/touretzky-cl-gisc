@@ -1,0 +1,2 @@
+The symbols T and NIL always evaluate to themselves, whereas other
+symbols evaluate according to the environment.

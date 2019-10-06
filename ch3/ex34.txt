@@ -1,0 +1,43 @@
+Given:
+
+(defun alpha (x)
+  (bravo (+ x 2) (charlie x 1)))
+
+(defun bravo (y z) (* y z))
+
+(defun charlie (y x) (- y x))
+
+Let's evaluate (alpha 3) with an evaltrace diagram. The takeaway here
+is that these bindings don't clobber one another, even though we're
+reusing names all over the place:
+
+(alpha 3)
+  3 evaluates to 3
+  Enter ALPHA with input 3
+    Create variable x, with value 3
+      (bravo (+ x 2) (charlie x 1))
+        (+ x 2)
+          x evaluates to 3
+          2 evaluates
+        Enter + with inputs 3 and 2
+        Result of + is 5
+        (charlie x 1)
+          x evaluates to 3
+          1 evaluates to 1
+          Enter CHARLIE with inputs 3 and 1
+            Create variables y and x, with values 3 and 1
+              (- y x)
+                y evaluates to 3
+                x evaluates to 1
+              Enter - with inputs 3 and 1
+              Result of - is 2
+          Result of CHARLIE is 2
+        Enter BRAVO with inputs 5 and 2
+          Create variables y and z, with values 5 and 2
+            (* y z)
+              y evaluates to 5
+              z evaluates to 2
+            Enter * with inputs 5 and 2
+            Result of * is 10
+        Result of BRAVO is 10
+  Result of ALPHA is 10

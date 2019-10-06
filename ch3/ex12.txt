@@ -1,0 +1,6 @@
+(defun addlength (a)
+  (cons (length a) a))
+
+(addlength (addlength '(A B C)))
+=> (addlength (3 A B C))
+=> (4 3 A B C)
