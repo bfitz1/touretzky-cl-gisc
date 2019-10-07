@@ -1,0 +1,5 @@
+(defun f (x y)
+  (or (and (or (equal x 'boy) (equal x 'girl))
+           (equal y 'child))
+      (and (or (equal x 'man) (equal x 'woman))
+           (equal y 'adult))))

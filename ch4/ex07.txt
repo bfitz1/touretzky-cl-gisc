@@ -1,0 +1,30 @@
+This expression is incorrect:
+
+(cond (symbolp x) 'symbol
+      (t 'not-a-symbol))
+
+Both (symbolp x) and 'symbol should be a single parenthesized 
+subexpression.
+
+
+This expression is correct:
+
+(cond ((symbolp x) 'symbol)
+      (t 'not-a-symbol))
+
+
+This expression is incorrect:
+
+(cond ((symbolp x) ('symbol))
+      (t 'not-a-symbol))
+
+We don't need ('symbol) to be parenthesized.
+
+
+This expression is incorrect:
+
+(cond ((symbolp x) 'symbol)
+      ((t 'not-a-symbol)))
+
+The last cond subexpression is nested within an extra pair of
+parentheses.

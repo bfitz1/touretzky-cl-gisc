@@ -1,0 +1,3 @@
+Conditionals are important because they allow us to make decisions,
+and decisions allow us to express more sophisticated programs.
+Particularly, programs with branching logic.

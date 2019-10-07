@@ -1,0 +1,6 @@
+x        y        (logical-or x y)
+-----    -----    ----------------
+T        T        T
+T        NIL      T
+NIL      T        T
+NIL      NIL      NIL

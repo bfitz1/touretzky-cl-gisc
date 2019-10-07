@@ -1,0 +1,3 @@
+It stands to reason that LOGICAL-AND is not logically complete the way
+NAND and NOR are, because there is no way for it to expression
+negation i.e. NOT. This ability was crucial in the previous analyses.

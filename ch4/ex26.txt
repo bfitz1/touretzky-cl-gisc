@@ -1,0 +1,2 @@
+To express a COND clause as an IF, it's necessary to nest more IFs
+into its subexpressions.

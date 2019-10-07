@@ -1,0 +1,8 @@
+(defun play (x y)
+  (cond ((or (and (equal x 'rock) (equal y 'scissors))
+             (and (equal x 'scissors) (equal y 'paper))
+             (and (equal x 'paper) (equal y 'rock))) 'first-wins)
+        ((or (and (equal y 'rock) (equal x 'scissors))
+             (and (equal y 'scissors) (equal x 'paper))
+             (and (equal y 'paper) (equal x 'rock))) 'second-wins)
+        (t 'tie)))

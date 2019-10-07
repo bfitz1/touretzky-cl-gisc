@@ -1,0 +1,10 @@
+x        y        z        (logical-if x y z)
+-----    -----    -----    ------------------
+T        T        T        T
+T        T        NIL      T
+T        NIL      T        NIL
+T        NIL      NIL      NIL
+NIL      T        T        T
+NIL      T        NIL      NIL
+NIL      NIL      T        T
+NIL      NIL      NIL      NIL

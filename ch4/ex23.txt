@@ -1,0 +1,3 @@
+A WHERE-IS function with 8 COND clauses could be expressed with 7
+IF expressions in WHERE-IS-2. WHERE-IS-3 would still have one OR
+but 7 uses of AND.

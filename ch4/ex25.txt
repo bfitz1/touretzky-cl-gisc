@@ -1,0 +1,1 @@
+When IF is given two arguments, the else branch defaults to NIL.

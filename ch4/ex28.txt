@@ -1,0 +1,16 @@
+The expression (if (oddp 5) (evenp 7) 'foo), per the outlined strategy,
+is equivalent to this code:
+
+(or (and (oddp 5) (evenp 7)) 'foo)
+
+This fails because (evenp 7) was evaluated by AND and used by OR.
+Specifically, (evenp 7) was NIL, so OR coalesced into the next
+expression FOO.
+
+To fix this while still using ANDs and ORs, we have to control the
+evaluation of true and false parts. We can do this using QUOTE and
+EVAL:
+
+(if test true-part false-part) 
+== 
+(eval (or (and test (quote true-part)) (quote false-part)))

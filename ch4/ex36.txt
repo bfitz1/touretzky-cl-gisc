@@ -1,0 +1,6 @@
+x        y        (nand x y)
+-----    -----    ----------
+T        T        NIL
+T        NIL      T
+NIL      T        T
+NIL      NIL      T

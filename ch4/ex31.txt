@@ -1,0 +1,2 @@
+NOT is both a conditional and a boolean function. A LOGICAL-NOT isn't
+necessary because NOT already returns either T or NIL for all inputs.

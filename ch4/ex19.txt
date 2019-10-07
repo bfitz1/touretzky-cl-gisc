@@ -1,0 +1,21 @@
+The expression (and x y z w) has an equivalent (though ugly) COND
+formulation:
+
+(cond 
+  (x (cond 
+       (y (cond 
+            (z (cond (w t) (t nil)))
+            (t nil)))
+       (t nil)))
+  (t nil))
+
+
+It's a little bit nicer with IF:
+
+(if x
+    (if y
+        (if z
+            (if w t nil)
+            nil)
+        nil)
+    nil)

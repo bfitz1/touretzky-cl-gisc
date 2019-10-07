@@ -1,0 +1,17 @@
+(and 'fee 'fie 'foe)
+=> foe
+
+(or 'fee 'fie 'foe)
+=> fee
+
+(or nil 'foe nil)
+=> foe
+
+(and 'fee 'fie nil)
+=> nil
+
+(and (equal 'abc 'abc) 'yes)
+=> yes
+
+(or (equal 'abc 'abc) 'yes)
+=> t
