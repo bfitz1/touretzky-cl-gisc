@@ -1,0 +1,2 @@
+SETF must be a macro because its side effect (affecting variables in
+local or global scope) must persist after its invocation. 

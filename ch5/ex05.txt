@@ -1,0 +1,2 @@
+Yes, LET and LET* are indistinguishable when only creating one local
+variable.

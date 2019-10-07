@@ -1,0 +1,2 @@
+A side effect is any observable occurrence happening as a result of
+invoking a procedure aside from its return value.

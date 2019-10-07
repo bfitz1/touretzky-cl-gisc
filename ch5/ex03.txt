@@ -1,0 +1,2 @@
+A local variable only exists within a given scope. A global variable
+exists within every scope.
