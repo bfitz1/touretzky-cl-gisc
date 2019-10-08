@@ -1,0 +1,2 @@
+Doing (setf books (reverse books)) may change the behavior of WHO-WROTE
+if there are multiple books by the same author on the list.

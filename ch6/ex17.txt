@@ -1,0 +1,1 @@
+The union of a set with itself is the same set again.

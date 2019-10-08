@@ -1,0 +1,9 @@
+This chapter was about all the different list functions that
+Common Lisp provides. It also demonstrated how some structures
+could be built using lists (e.g. sets, tables).
+
+Personally, I think linked lists are simple and elegant, so good for
+learning. They also seem to play nicely with functional programming
+semantics due to being a recursively defined data structure. It
+doesn't look like they're favored in modern computing, though.
+Cache locality and all that.

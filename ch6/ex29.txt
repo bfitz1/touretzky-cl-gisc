@@ -1,0 +1,2 @@
+Like with sets, LENGTH is the Lisp primitive that returns the number of
+entires in a table. 

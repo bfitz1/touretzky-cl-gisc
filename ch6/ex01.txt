@@ -1,0 +1,2 @@
+The fourth NTHCDR of '(A B C) is NIL, and the CAR of NIL is again
+NIL.

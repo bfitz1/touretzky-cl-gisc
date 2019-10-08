@@ -1,0 +1,2 @@
+The value of (nth 3 '(a b c . d)) is undefined because the third NTHCDR
+of that list is D, and D is not a list. Taking its CAR is an error.

@@ -1,0 +1,7 @@
+Whenever we have:
+
+- x and y are both NIL
+- x and y are equal
+
+then SET-DIFFERENCE is symmetric i.e. (set-difference x y) is the same
+as (set-difference y x). Otherwise, it isn't.

@@ -1,0 +1,1 @@
+A set intersected with itself is the same set.

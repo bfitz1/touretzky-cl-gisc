@@ -1,0 +1,2 @@
+Since MEMBER will always end up returning a pointer to an existing
+item, it doesn't need to copy its elements.

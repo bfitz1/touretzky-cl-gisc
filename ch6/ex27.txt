@@ -1,0 +1,2 @@
+Since any non-NIL value in Common Lisp is functionally T, I don't see
+any issue with calling ASSOC a predicate.

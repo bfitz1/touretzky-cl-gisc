@@ -1,0 +1,5 @@
+The function:
+
+  (defun mystery (x) (first (last (reverse x))))
+
+is a (rather convoluted) way of reimplementing FIRST.

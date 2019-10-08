@@ -1,0 +1,2 @@
+The value of (last '((a b c))) is ((A B C)) because the argument to
+LAST was a list of one element.

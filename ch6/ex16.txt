@@ -1,0 +1,1 @@
+The union of a set with NIL is that same set.

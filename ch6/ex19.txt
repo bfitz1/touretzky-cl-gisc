@@ -1,0 +1,3 @@
+When NIL is the first argument to SET-DIFFERENCE, the result is NIL
+since there's nothing to remove. When NIL is the second argument, the
+result is the first argument unmodified.

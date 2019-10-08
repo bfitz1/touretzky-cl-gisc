@@ -1,0 +1,4 @@
+SET-DIFFERENCE will only ever need to copy its first argument, since
+it will return a possibly modified version of it. The second argument
+never needs to be copied because we only reference the elements
+inside but never return them.

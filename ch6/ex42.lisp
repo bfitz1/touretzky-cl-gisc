@@ -1,0 +1,1 @@
+(defun royal-we (x) (subst 'we 'i x))

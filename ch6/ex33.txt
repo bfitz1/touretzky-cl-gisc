@@ -1,0 +1,6 @@
+Our current design doesn't allow for this functionality. ASSOC checks
+the first value for each entry in the table, and that's where we
+currently list the book's name.
+
+If we used a dotted list for each entry, then we could use RASSOC
+for this purpose.

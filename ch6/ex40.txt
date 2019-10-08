@@ -1,0 +1,7 @@
+When making the entries in the table, each letter should list all the
+letters that would come after it:
+
+((a b c d)
+ (b c d)
+ (c d)
+ (d))
