@@ -1,0 +1,1 @@
+(defun not-all-odd (x) (not (every #'oddp x)))

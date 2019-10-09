@@ -1,0 +1,1 @@
+(defun find-nested (x) (find-if #'consp x))

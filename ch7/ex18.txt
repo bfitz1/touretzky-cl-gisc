@@ -1,0 +1,13 @@
+Both + and * have defined values when invoked with no arguments:
+
+(+)
+=> 0
+
+(*)
+=> 1
+
+I guess this exists because:
+
+- Someone knew their abstract algebra and saw the usufulness of using
+  the identity elements for addition and multiplication.
+- Using 0 and 1 made sense when there's nothing to add or multiply.

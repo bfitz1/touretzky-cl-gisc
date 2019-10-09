@@ -1,0 +1,2 @@
+An applicative operator is a function that applies different functions
+to inputs.

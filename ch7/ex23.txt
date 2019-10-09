@@ -1,0 +1,2 @@
+The functions are distinct, though the last two may be better named
+as SOME-EVEN and SOME-ODD.

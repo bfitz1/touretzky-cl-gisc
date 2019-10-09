@@ -1,0 +1,4 @@
+Lambda expressions are useful because they allow us to define functions
+on the fly (to be used in applicative functions, no doubt). It's
+possible to do without them and define any functions you need at the
+top level.

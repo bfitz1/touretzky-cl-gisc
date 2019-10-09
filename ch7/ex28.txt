@@ -1,0 +1,12 @@
+Uh, sure? For some f and x, (every #'f x) looks something like this:
+
+[*][*]...[*]
+ |  |     |
+ |  |     n
+ |  2
+ | / AND
+ 1
+
+1: (f *)
+2: (f *)
+n: (f *)

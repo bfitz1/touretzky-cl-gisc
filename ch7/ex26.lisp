@@ -1,0 +1,1 @@
+(defun find-if (f x) (first (remove-if-not #'f x))

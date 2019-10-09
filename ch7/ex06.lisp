@@ -1,0 +1,1 @@
+(lambda (x) (or (equal x t) (equal x nil))

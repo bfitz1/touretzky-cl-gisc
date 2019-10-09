@@ -1,0 +1,1 @@
+(defun every (f x) (equal x (remove-if #'f x)))
