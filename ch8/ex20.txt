@@ -1,0 +1,14 @@
+The factorial function FACT is described by augmented recursion since
+we have to build up our result using multiplication:
+
+(defun fact (x)
+  (cond ((zerop x) 1)
+        (t (* x
+              (fact (- x 1))))))
+
+Func:         FACT
+End-test:     (ZEROP X)
+End-value:    1
+Aug-fun:      *
+Aug-val:      X
+Reduced-x:    (- x 1)

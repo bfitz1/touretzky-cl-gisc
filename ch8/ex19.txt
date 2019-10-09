@@ -1,0 +1,8 @@
+A single-test tail recursion version of ANYODDP would look like this:
+
+(defun anyoddp (x)
+  (cond ((zerop (car x)) t)
+        (t (anyoddp (cdr x)))))
+
+This will work for inputs where the list contains an odd number, but
+will result in an error otherwise.

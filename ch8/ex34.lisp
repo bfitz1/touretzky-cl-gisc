@@ -1,0 +1,5 @@
+(defun my-intersection (x y)
+  (cond ((null x) nil)
+        ((member (first x) y) (cons (first x)
+                                    (my-intersection (rest x) y)))
+        (t (my-intersection (rest x) y))))

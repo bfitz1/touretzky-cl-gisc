@@ -1,0 +1,20 @@
+The function:
+
+(defun any-7-p (x)
+  (cond ((equal (first x) 7) t)
+        (t (any-7-p (rest x)))))
+
+works with any finite list, regardless of whether or not it contains
+a 7. However, it recurses infinitely when given a circular list
+which does not contain a 7. For example:
+
+(any-7-p '(5 6 7))
+=> t 
+
+(any-7-p '(5 6 8))
+=> nil
+
+This doesn't actually work in my REPL, but you get the idea:
+
+(setf x #1=(1 2 3 . #1))
+(any-7-p x) ; never returns!

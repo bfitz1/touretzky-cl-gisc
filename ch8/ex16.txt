@@ -1,0 +1,3 @@
+Switching the first and second COND clauses in ANYODDP could cause
+an error in lists without odd numbers because the empty list would
+get passed to ODDP.

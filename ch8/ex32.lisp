@@ -1,0 +1,5 @@
+(defun sum-numeric-elements (x)
+  (cond ((null x) 0)
+        ((numberp (first x)) (+ (first x)
+                                (sum-numeric-elements (rest x))))
+        (t (sum-numeric-elements (rest x)))))

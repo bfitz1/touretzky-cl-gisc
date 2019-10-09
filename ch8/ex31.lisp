@@ -1,0 +1,5 @@
+(defun compare-lengths (x y)
+  (cond ((and (null x) (null y)) 'same-length)
+        ((null y) 'first-is-longer)
+        ((null x) 'second-is-longer)
+        (t (compare-lengths (rest x) (rest y)))))

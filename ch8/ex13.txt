@@ -1,0 +1,7 @@
+This factorial implementation:
+
+(defun fact (n)
+  (cond ((zerop n) 1)
+        (t (* n (fact (- n 1))))))
+
+recurses infinitely when given a number less than zero.

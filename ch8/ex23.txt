@@ -1,0 +1,8 @@
+n         (cons x .)   (cons . y)    (laugh n)
+-----     ---------    ----------    ---------
+0         .            .             ()
+1         HA           (laugh 0)     (HA)
+2         HA           (laugh 1)     (HA HA)
+3         HA           (laugh 2)     (HA HA HA)
+4         HA           (laugh 3)     (HA HA HA HA)
+5         HA           (laugh 4)     (HA HA HA HA HA)

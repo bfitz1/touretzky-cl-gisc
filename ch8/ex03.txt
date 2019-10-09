@@ -1,0 +1,6 @@
+It's very possible that there's some floating point shenanigans
+happening in (fact 20.0) versus (fact 20) since some numbers can
+only ever be approximated in a floating-point representation.
+
+This doesn't happen with (fact 0.0) and (fact 0), though,
+because 0.0 can be represented exactly.

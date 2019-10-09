@@ -1,0 +1,3 @@
+The CAR of this list is x, while the CDR is the list itself again.
+COUNT-SLICES will never stop counting x if given this list as an
+input.

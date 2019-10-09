@@ -1,0 +1,35 @@
+Some strategies/templates for recursion: single-test tail recursion,
+double-test tail recursion (and so on), augmented recursion,
+conditional augmentation, simultaneous recursion on several
+variables (an addition to all the previous ones)
+
+Single-test tail recursion template:
+
+(defun func (x)
+  (cond (end-test end-value)
+        (T (func reduced-x))))
+
+
+Double-test tail recursion template:
+
+(defun func (x)
+  (cond (end-test-1 end-value-1)
+        (end-test-2 end-value-2)
+        (T (func reduced-x))))
+
+
+Augmented recursion template:
+
+(defun func (x)
+  (cond (end-test end-value)
+        (T (aug-fun aug-val
+                    (func reduced-x)))))
+
+
+Conditional augmented recursion template:
+
+(defun func (x)
+  (cond (end-test end-value)
+        (aug-test (aug-fun aug-val
+                           (func reduced-x))
+        (t (func reduced-x)))))

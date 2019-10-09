@@ -1,0 +1,19 @@
+The second cond clause is never true since each head element of the
+list is even:
+
+(anyoddp '(3142 5798 6550 8914))
+  Enter ANYODDP
+    X = (3142 5798 6550 8914)
+      Enter ANYODDP
+        X = (5798 6550 8914)
+          Enter ANYODDP
+            X = (6550 8914)
+              Enter ANYODDP
+                X = (8914)
+                  Enter ANYODDP
+                    X = ()
+                  ANYODDP returned NIL
+              ANYODDP returned NIL
+          ANYODDP returned NIL
+      ANYODDP returned NIL
+  ANYODDP returned NIL
