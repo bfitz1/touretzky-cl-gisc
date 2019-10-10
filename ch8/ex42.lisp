@@ -1,0 +1,5 @@
+(defun my-subst (new old x)
+  (cond ((null x) nil)
+        ((atom x) (if (equal old x) new x))
+        (t (cons (my-subst new old (car x))
+                 (my-subst new old (cdr x))))))

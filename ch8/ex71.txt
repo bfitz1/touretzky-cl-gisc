@@ -1,0 +1,9 @@
+*--*--*--*--nil
+|  |  |  |
+A  B  |  E
+      |
+      *--*--nil
+      |  |
+      C  D
+     
+The terminal nodes are D and E. The nonterminal nodes are A, B and C.

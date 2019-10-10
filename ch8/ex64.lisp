@@ -1,0 +1,5 @@
+(defun tree-find-if (fn x)
+  (cond ((null x) nil)
+        ((atom x) (if (funcall fn x) x nil))
+        (t (or (tree-find-if fn (first x))
+               (tree-find-if fn (rest x))))))

@@ -1,0 +1,2 @@
+A recursive function invokes itself somewhere in its definition, while
+a nonrecursive one doesn't.

@@ -1,13 +1,29 @@
+When using recursion, I notice that it's important to be keenly aware of
+structure, whether it's expressed by data (e.g. explicit nesting of cons
+cells) or by operations on data (e.g. the multiplications needed to
+build up a factorial). The second one sometimes needs a little
+imagination.
+
 Some strategies/templates for recursion: single-test tail recursion,
 double-test tail recursion (and so on), augmented recursion,
-conditional augmentation, simultaneous recursion on several
-variables (an addition to all the previous ones)
+conditional augmentation, multiple recursion, simultaneous recursion
+on several variables. There are no hard boundaries between these
+approaches. Mix it up!
+
+Recursion can be really clear and elegant. But with most mathematically
+pretty things in computer science and programming, it doesn't take full
+advantage of our hardware without some extra prodding. For instance,
+tail-call optimization is a compiler trick that can save us from filling
+up the stack with slower performing recursive calls, substituting them
+with more efficient jumps instead. Keep an eye out for when and where
+you can do this. 
+
 
 Single-test tail recursion template:
 
 (defun func (x)
   (cond (end-test end-value)
-        (T (func reduced-x))))
+        (t (func reduced-x))))
 
 
 Double-test tail recursion template:
@@ -15,14 +31,14 @@ Double-test tail recursion template:
 (defun func (x)
   (cond (end-test-1 end-value-1)
         (end-test-2 end-value-2)
-        (T (func reduced-x))))
+        (t (func reduced-x))))
 
 
 Augmented recursion template:
 
 (defun func (x)
   (cond (end-test end-value)
-        (T (aug-fun aug-val
+        (t (aug-fun aug-val
                     (func reduced-x)))))
 
 
@@ -33,3 +49,12 @@ Conditional augmented recursion template:
         (aug-test (aug-fun aug-val
                            (func reduced-x))
         (t (func reduced-x)))))
+
+
+Multiple recursion template:
+
+(defun func (x)
+  (cond (end-test-1 end-value-1)
+        (end-test-2 end-value-2)
+        (t (combiner (func first-reduced-n)
+                     (func second-reduced-n)))))

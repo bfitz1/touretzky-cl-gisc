@@ -1,0 +1,8 @@
+(defun merge-lists (x y)
+  (cond ((null x) y)
+        ((null y) x)
+        (t (if (< (car x) (car y))
+               (cons (car x)
+                     (merge-lists (cdr x) y))
+               (cons (car y)
+                     (merge-lists x (cdr y)))))))

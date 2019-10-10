@@ -1,0 +1,8 @@
+(defun arith-eval (x)
+  (cond ((atom x) x)
+        (t (let ((lhs (first x))
+                 (rhs (third x))
+                 (op (second x)))
+            (funcall (arith-eval op)
+                     (arith-eval lhs)
+                     (arith-eval rhs))))))

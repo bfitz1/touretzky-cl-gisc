@@ -1,0 +1,2 @@
+Since NIL is an atom, all occurrences of NIL would be replaced with
+Q. This would transform every list into a dotted pair.

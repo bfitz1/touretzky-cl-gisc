@@ -1,0 +1,2 @@
+Factor(P) = P, where P is prime.
+Factor(N) = p * Factor(N / p), where p is the smallest prime factor of N.
