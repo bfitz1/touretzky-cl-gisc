@@ -1,0 +1,6 @@
+(defun f ()
+  (format t "What is your hourly wage? ")
+  (let ((wage (read)))
+    (format t "And how many hours did you work? ")
+    (let ((hours (read)))
+      (format t "Your gross pay is $~A.~%" (* wage hours)))))

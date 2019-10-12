@@ -1,0 +1,12 @@
+(format t "a~S" 'b)
+aB
+=> NIL
+
+(format t "always~%broke")
+always
+broke
+=> NIL
+
+(format t "~S~S" 'alpha 'bet)
+ALPHABET
+=> NIL

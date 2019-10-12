@@ -1,0 +1,7 @@
+(defun dot-prin1 (x)
+  (cond ((atom x) (format t "~A" x))
+        (t (format t "(")
+           (dot-prin1 (car x))
+           (format t " . ")
+           (dot-prin1 (cdr x))
+           (format t ")"))))

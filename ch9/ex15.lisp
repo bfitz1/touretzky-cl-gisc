@@ -1,0 +1,16 @@
+(defun hybrid-prin1 (x)
+  (format t "(")
+  (print-car (car x))
+  (print-cdr (cdr x)))
+
+(defun print-car (x)
+  (if (atom x)
+      (format t "~A" x)
+      (hybrid-prin1 x)))
+
+(defun print-cdr (x)
+  (cond ((null x) (format t ")"))
+        ((atom x) (format t " . ~A)" x))
+        (t (format t " ")
+           (print-car (car x))
+           (print-cdr (cdr x)))))

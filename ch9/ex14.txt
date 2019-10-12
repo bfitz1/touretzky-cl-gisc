@@ -1,0 +1,2 @@
+When given a circular CDR, DOT-PRIN1 will print "(FOO ." forever.
+When given a circular CAR, DOT-PRIN1 will print "(" forever. 

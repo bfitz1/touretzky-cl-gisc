@@ -1,0 +1,2 @@
+Lisp will type back (A . B). Pairs ending in NIL are assumed to be a
+list and get a particular formatting.

@@ -1,0 +1,2 @@
+Strings are a sequence of characters delimited by quotation marks (").
+Internally, strings are represented using vectors. 

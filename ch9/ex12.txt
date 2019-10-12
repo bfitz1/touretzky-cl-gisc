@@ -1,0 +1,4 @@
+(dot-prin1 '(a . (b . c)))
+=> (A . (B . C))
+
+DOT-PRIN1 prints exactly what it reads. Neat.
