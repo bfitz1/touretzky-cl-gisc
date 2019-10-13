@@ -1,0 +1,12 @@
+The current value of x is cons'ed onto x:
+
+(setf x nil)
+
+(push x x)
+=> (nil)
+
+(push x x)
+=> ((nil) nil)
+
+(push x x)
+=> (((nil) nil) (nil) nil)

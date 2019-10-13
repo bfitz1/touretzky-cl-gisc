@@ -1,0 +1,4 @@
+SELL would carry on with whatever the value of *TOTAL-GLASSES*
+was at the time. In the case of *TOTAL-GLASSES* being initialized to
+FOO, we would hit an error when we attempt to add the number of
+newly sold glasses.

@@ -1,0 +1,6 @@
+(defun less-ugly (x y)
+  (if (> x y)
+      (less-ugly y x)
+      (let* ((avg (/ (+ x y) 2.0))
+             (pct (* 100 (/ avg y))))
+        (list 'average avg 'is pct 'percent 'of 'max y))))

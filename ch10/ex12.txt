@@ -1,0 +1,3 @@
+The expression (append h h) will create a new list (HI HO HI HO),
+whereas the expression (nconc h h) will change the last CDR in
+H in place.
