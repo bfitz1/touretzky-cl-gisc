@@ -1,0 +1,2 @@
+No. All of the values in a DO list are bound in parallel. They aren't
+aware of each others' changes.

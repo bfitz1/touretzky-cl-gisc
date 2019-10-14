@@ -1,0 +1,2 @@
+The value 5 is returned since I is specified as the return value for
+the DOTIMES expression, and the loop continues until I is 5.

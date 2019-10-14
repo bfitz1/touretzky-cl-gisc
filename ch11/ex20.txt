@@ -1,0 +1,2 @@
+Yes. The difference between DO and DO* is parallel versus sequential
+bindings. If there's only one binding, it doesn't make a difference.

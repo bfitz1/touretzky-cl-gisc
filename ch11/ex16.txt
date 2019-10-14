@@ -1,0 +1,2 @@
+DO allows you to specify the expression used to update each variable
+in the list as well as its initial binding. LET only does the latter.

@@ -1,0 +1,5 @@
+(defun check-all-odd (x)
+  (do ((r x (rest r)))
+      ((null r) t)
+    (format t "~&Checking ~S..." (car r))
+    (when (not (oddp (car r))) (return nil))))

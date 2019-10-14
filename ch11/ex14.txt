@@ -1,0 +1,2 @@
+There would be an unassinged symbol error, as the function would attempt
+to take the CAR of X before X has been assigned a value.

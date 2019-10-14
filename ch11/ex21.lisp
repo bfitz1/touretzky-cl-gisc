@@ -1,0 +1,5 @@
+(defun it-fib (n)
+  (do ((i n (- i 1))
+       (a 0 b)
+       (b 1 (+ a b)))
+      ((zerop i) a)))
