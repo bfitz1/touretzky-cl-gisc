@@ -1,0 +1,8 @@
+CAPTAIN is a symbol preceeding a string in the text representation
+of a STARSHIP struct.
+
+:CAPTAIN is a keyword argument to be used with the MAKE-STARSHIP
+function.
+
+STARSHIP-CAPTAIN is an accessor function to be applied to a STARSHIP
+struct.

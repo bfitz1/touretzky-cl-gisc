@@ -1,0 +1,1 @@
+No, 'STARSHIP is a symbol and not a STARSHIP struct.

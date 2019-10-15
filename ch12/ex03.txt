@@ -1,0 +1,8 @@
+(type-of 'make-starship)
+=> SYMBOL
+
+(type-of #'make-starship)
+=> FUNCTION
+
+(type-of (make-starship))
+=> STARSHIP
