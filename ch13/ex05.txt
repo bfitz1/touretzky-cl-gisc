@@ -1,0 +1,2 @@
+One advantage of arrays over lists is that random access can be done in
+constant time.

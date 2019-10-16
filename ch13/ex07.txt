@@ -1,0 +1,8 @@
+They each require the same amount of cons cells. As an example, here's
+a dotted association list:
+
+(cons (cons a b)
+      (cons (cons c d) nil)
+
+Here's a property list:
+(cons 'a (cons 'b (cons 'c (cons 'd nil))))

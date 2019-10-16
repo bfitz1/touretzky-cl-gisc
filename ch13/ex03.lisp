@@ -1,0 +1,6 @@
+(defun my-get (sym prop)
+  (labels ((find-prop (plist)
+             (cond ((null plist) nil)
+                   ((equal prop (first plist)) (second plist))
+                   (t (find-prop (rest (rest plist)))))))
+    (find-prop (symbol-plist sym))))

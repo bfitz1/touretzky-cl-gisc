@@ -1,0 +1,2 @@
+One advantage of lists over arrays is that modifying the head (e.g.
+adding or removing nodes) can always be done in constant time.
