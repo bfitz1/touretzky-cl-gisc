@@ -1,0 +1,2 @@
+Macros are executed during the compile phase, so it could cause
+side-effecting behavior to occur outside of their intended use.

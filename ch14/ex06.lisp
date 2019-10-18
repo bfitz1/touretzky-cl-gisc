@@ -1,0 +1,6 @@
+(defmacro variable-chain (&rest variables)
+  `(progn ,@(mapcar #'(lambda (x y)
+                          (list 'setf x y))
+                    (butlast variables)
+                    (rest variables))
+          nil))

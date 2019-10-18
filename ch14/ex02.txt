@@ -1,0 +1,9 @@
+Uh oh:
+
+(macroexpand (defstruct starship
+               (name nil)
+               (condition 'green)))
+==
+*return values for the expression*
+
+It didn't expand the macro!

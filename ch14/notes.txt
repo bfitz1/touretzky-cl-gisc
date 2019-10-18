@@ -1,0 +1,7 @@
+This is probably the part of Lisps that I'm least familiar with since
+it's very uncommon to see programming languages with robust (read: not
+text replacement) macro facilities that let you extend the lanugage
+itself.
+
+Also this is where the differences in Common Lisp implementation really
+start to bite me in the ass.

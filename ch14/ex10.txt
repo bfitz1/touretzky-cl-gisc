@@ -1,0 +1,2 @@
+Programs can potentially run several hundred-times faster after being
+compiled. Wow-wee Zow-wee.

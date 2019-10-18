@@ -1,0 +1,7 @@
+Don't have PPMX. Gotta make do with MACROEXPAND, I guess!
+
+(setf x '(1 2 3))
+
+(macroexpand (pop x))
+==
+(setq x (cdr x))
